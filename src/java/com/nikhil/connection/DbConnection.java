@@ -26,9 +26,6 @@ public class DbConnection {
             e.getMessage();
         }
         try{
-//            Class.forName("com.mysql.jdbc.Driver");
-//            con = DriverManager.getConnection("jdbc:mysql://localhost:3306/jobportal", "root", "root");
-
             MysqlDataSource ds = new MysqlDataSource();
             
             ds.setURL(jdbc_url);
