@@ -1,0 +1,125 @@
+
+@media(max-width: 1276px){
+    .resume-div table tr, .resume-div table td{
+        display: block;
+        width: 100%;
+    }
+}
+
+@media(max-width: 1222px){
+    .company-logo-div{
+        display: none;
+    }
+    .quick-search-div{
+        display: none;
+    }
+    .latest-job-div{
+        margin: auto;
+        width: 80% !important;
+    }
+}
+
+@media(max-width: 991px){
+    .my-nav-items li{
+        padding: 0 !important;
+    }
+    .user-name-text{
+        display: none;
+    }
+    .display-none{
+        display: block !important;
+    }
+    .add-education-div{
+        width: 80% !important;
+    }
+}
+
+@media(max-width: 895px){
+    .search-job-table thead{
+        display: none;
+    }
+    .search-job-table tr{
+        margin-bottom: 25px;
+    }
+    .search-job-table tbody, .search-job-table tr, .search-job-table td{
+        display: block;
+        width: 100%;
+    }
+    .contact-form table tbody tr td input, .contact-form table tbody tr td textarea{
+        font-size: 10px !important;
+    }
+    .create-resume-div{
+        width: 90% !important;
+        margin: auto !important;
+    }
+    .add-education-div{
+        width: 95% !important;
+    }
+}
+
+@media(max-width: 769px){
+    .textfield{
+        width: 200px !important;
+        height: 45px !important;
+    }
+}
+
+@media(max-width: 662px){
+    .create-resume-div{
+        width: 98% !important;
+        margin: auto !important;
+    }
+    .add-edu-form table tr, .add-edu-form table td{
+        display: block;
+        width: 100%;
+    }
+    .add-edu-form table td input, .add-edu-form table td textarea, .add-edu-form table td select{
+        font-size: 12px;
+    }
+}
+
+@media(max-width: 612px){
+    .textfield{
+        width: 90% !important;
+        height: 45px !important;
+        margin-bottom: 10px !important;
+        margin-left: 0px !important;
+    }
+    .latest-job-div{
+        margin: auto;
+        width: 95% !important;
+    }
+    .job-junction-about-us{
+        font-size: 15px !important;
+    }
+    .about-us-last-heading{
+        font-size: 18px !important;
+    }
+    .edit-profile-form{
+        text-align: center;
+        margin: auto;
+    }
+    .edit-profile-form table tr, .edit-profile-form table td{
+        display: block;
+        width: 100%;
+    }
+    .edit-profile-form table td input, .edit-profile-form table td textarea{
+        font-size: 12px;
+    }
+    .add-education-div{
+        width: 100% !important;
+    }
+}
+
+@media(max-width: 349px){
+    .navbar{
+        padding: 15px 10px !important;
+    }
+    .search-job-div h3{
+        font-size: 15px;
+    }
+}
+
+
+
+
